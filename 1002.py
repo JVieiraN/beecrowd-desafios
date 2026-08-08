@@ -1,5 +1,5 @@
 raio = float(input())
 N = 3.14159
-area = round(N * raio**2, 4)
+area = N * raio**2
 
-print('A=',area)
+print(f'A={area:.4f}')
